@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function ParkSearch({getParksList}) {
-    const [stateCode, setStateCode] = useState('')
+    const [stateCode, setStateCode] = useState('mn')
 
     const handleSearch = (e) => {
         e.preventDefault();
@@ -13,7 +13,6 @@ function ParkSearch({getParksList}) {
         <>
         <h3>Select a State:</h3>
         <select onChange={e => setStateCode(e.target.value)} name="state" >
-            <option>Choose One:</option>
             <option value="mn">Minnesota</option>
             <option value="wy">Wyoming</option>
         </select>
