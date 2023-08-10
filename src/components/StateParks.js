@@ -1,14 +1,13 @@
-// import { useState } from 'react';
 
-
-function StateParks({data}) {
-    // const {fullName, description} = data[0];
+function StateParks({parks}) {
 
     return (
         <>
         <ul>
-            {data.map(name => (
-            <li key={data.id}>{data.fullName}</li>
+            {parks.map(name => (
+            <li key={name.id}><strong>{name.fullName}</strong>
+            <br />
+             {name.description}</li>
             ))}
         </ul>
         </>

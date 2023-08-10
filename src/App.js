@@ -24,7 +24,7 @@ function App() {
       <ParkSearch getParksList={getParksList}/>
 
       {stateParkInfo && (
-        <StateParks data={stateParkInfo} />
+        <StateParks parks={stateParkInfo} />
       )}
     </>
   )
