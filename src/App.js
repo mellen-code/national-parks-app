@@ -12,7 +12,7 @@ function App() {
       const response = await fetch(`https://developer.nps.gov/api/v1/parks?stateCode=${state}&api_key=${process.env.REACT_APP_PARKS_API_TOKEN}`);
       const data = await response.json();
       setStateParkInfo(data.data);
-      console.log(stateParkInfo)
+      console.log(stateParkInfo);
     } 
     catch(error) {
       console.error(error)
@@ -24,7 +24,8 @@ function App() {
       <ParkSearch getParksList={getParksList}/>
 
       {stateParkInfo && (
-        <StateParks parks={stateParkInfo} />
+        <StateParks parks={stateParkInfo} 
+        />
       )}
     </>
   )
