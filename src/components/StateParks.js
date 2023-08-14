@@ -1,10 +1,11 @@
 import { useState } from 'react';
 
-function StateParks({parks}) {
-    const [showParkDetails, setShowParkDetails] = useState(false);
 
-    const handleClick = () => {
-        setShowParkDetails(!showParkDetails)
+function StateParks({parks}) {
+    const [selectedParkId, setSelectedParkId] = useState(null);
+
+    const handleClick = (parkId) => {
+       setSelectedParkId(parkId);
     }
 
     return (
@@ -12,19 +13,22 @@ function StateParks({parks}) {
         <ul>
         <>
             {parks.map(park => (
-            
 
-            <li key={park.id} onClick={handleClick}><strong>{park.fullName}</strong>
+            <li key={park.id}><strong>{park.fullName}</strong>
             <br />
             {park.description}
 
             <br />
-            <button onClick={handleClick}>Show Details</button>
+            <button onClick = {() => handleClick(park.id)}>Show Details</button>
 
             <br />
-            {showParkDetails && (
-                <p>{park.directionsUrl}</p>
+            {selectedParkId === park.id && (
+                <>
+                <p>{park.url}</p>
+                <p>{park.description}</p>
+                </>
             )}
+           
             </li>
            
             ))}
