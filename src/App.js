@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ParkSearch from './components/ParkSearch';
 import StateParks from './components/StateParks';
+import '@fontsource/roboto/300.css';
 import './App.css';
 
 

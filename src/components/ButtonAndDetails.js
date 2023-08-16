@@ -1,5 +1,5 @@
 
-const ButtonAndDetails = ({ text, onClick, isSelected }) => {
+const ButtonAndDetails = ({ onClick, isSelected }) => {
 
     return (
     <>

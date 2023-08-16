@@ -8,7 +8,7 @@ function StateParks({parks}) {
         if (selectedParkId === parkId) {
             setSelectedParkId(!parkId)
         } else {
-       setSelectedParkId(parkId)
+            setSelectedParkId(parkId)
         }
     }
 
@@ -24,8 +24,7 @@ function StateParks({parks}) {
 
             <br />
             
-            <ButtonAndDetails 
-            text 
+            <ButtonAndDetails  
             onClick={() => handleClick(park.id)} 
             isSelected={selectedParkId === park.id}
             />
