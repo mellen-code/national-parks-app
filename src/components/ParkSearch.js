@@ -10,15 +10,14 @@ function ParkSearch({getParksList}) {
     }
 
     return (
-    <>
     <div>
         <Grid container justifyContent="center">
             <Grid item>
-                <Typography variant="h3" color="primary" >Explore U.S. National Parks</Typography>
+                <Typography variant="h3" color="primary" mt={3} mb={1}>Explore U.S. National Parks</Typography>
             </Grid>
         </Grid>
     
-        <Grid container spacing={2} justifyContent="center" alignItems="center">
+        <Grid container spacing={2} justifyContent="center" alignItems="center" mb={3}>
         <Grid item>
             <FormControl variant="standard" sx={{ m: 1, minWidth: 150 }}>
                 <InputLabel id="demo-simple-select-label">Select a State</InputLabel>
@@ -40,7 +39,6 @@ function ParkSearch({getParksList}) {
         </Grid>
         </Grid>
     </div>
-    </>
     )
 
 }

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import ParkSearch from './components/ParkSearch';
 import StateParks from './components/StateParks';
-import '@fontsource/roboto/300.css';
 import './App.css';
 
 
@@ -22,7 +21,7 @@ function App() {
 
   return (
     <>
-      <ParkSearch getParksList={getParksList}/>
+      <ParkSearch getParksList={getParksList} />
 
       {stateParkInfo && (
         <StateParks parks={stateParkInfo} 
