@@ -3,7 +3,6 @@ import ParkSearch from './components/ParkSearch';
 import StateParks from './components/StateParks';
 import './App.css';
 
-
 function App() {
   const [stateParkInfo, setStateParkInfo] = useState(null);
 
@@ -21,8 +20,8 @@ function App() {
 
   return (
     <>
-      <ParkSearch getParksList={getParksList} />
-
+      <ParkSearch getParksList={ getParksList} />
+      
       {stateParkInfo && (
         <StateParks parks={stateParkInfo} 
         />
