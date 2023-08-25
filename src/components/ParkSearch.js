@@ -51,6 +51,32 @@ function ParkSearch({getParksList}) {
                     <MenuItem value="ma">Massachusetts</MenuItem>
                     <MenuItem value="mi">Michigan</MenuItem>
                     <MenuItem value="mn">Minnesota</MenuItem>
+                    <MenuItem value="ms">Mississippi</MenuItem>
+                    <MenuItem value="mo">Missouri</MenuItem>
+                    <MenuItem value="mt">Montana</MenuItem>
+                    <MenuItem value="ne">Nebraska</MenuItem>
+                    <MenuItem value="nv">Nevada</MenuItem>
+                    <MenuItem value="nh">New Hampshire</MenuItem>
+                    <MenuItem value="nj">New Jersey</MenuItem>
+                    <MenuItem value="nm">New Mexico</MenuItem>
+                    <MenuItem value="ny">New York</MenuItem>
+                    <MenuItem value="nc">North Carolina</MenuItem>
+                    <MenuItem value="nd">North Dakota</MenuItem>
+                    <MenuItem value="oh">Ohio</MenuItem>
+                    <MenuItem value="ok">Oklahoma</MenuItem>
+                    <MenuItem value="or">Oregon</MenuItem>
+                    <MenuItem value="pa">Pennsylvania</MenuItem>
+                    <MenuItem value="ri">Rhode Island</MenuItem>
+                    <MenuItem value="sc">South Carolina</MenuItem>
+                    <MenuItem value="sd">South Dakota</MenuItem>
+                    <MenuItem value="tn">Tennessee</MenuItem>
+                    <MenuItem value="tx">Texas</MenuItem>
+                    <MenuItem value="ut">Utah</MenuItem>
+                    <MenuItem value="vt">Vermont</MenuItem>
+                    <MenuItem value="va">Virginia</MenuItem>
+                    <MenuItem value="wa">Washington</MenuItem>
+                    <MenuItem value="wv">West Virginia</MenuItem>
+                    <MenuItem value="wi">Wisconsin</MenuItem>
                     <MenuItem value="wy">Wyoming</MenuItem>
                 </Select> 
             </FormControl>
