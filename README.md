@@ -1,6 +1,6 @@
 # National Parks App <a href="https://nationalparksusa.netlify.app/" target="_blank">Visit Here</a>
 <a href="https://nationalparksusa.netlify.app/" target="_blank">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmVlMjg2MDAzZjA3N2I2MjdhMWIyMTRiOGQzYThkMjcwZWU5MmMyMCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/bASX2PBLf0hYWCF2lS/giphy.gif" width="80%" margin="auto" alt="link to national parks app"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTgwanc4emEzOXBna2kxejk2OTZ4MnhvYWkwdjB4Nmk4M3FwNzZsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/clIHGpH2t8pjy5w17l/giphy.gif" width="80%" margin="auto" alt="link to national parks app"/>
 </a>
 
 React SPA app where users can pull up the details of each U.S. national park and monument. 
@@ -11,7 +11,7 @@ Built with React, Node, JSX, and Material UI.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-## Tech used: ![NODE BADGE](https://img.shields.io/static/v1?label=%7C&message=NODE&color=cbb148&style=plastic&logo=node)![REACT BADGE](https://img.shields.io/static/v1?label=|&message=REACT.JS&color=4a935c&style=plastic&logo=react)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)![PASSPORT BADGE](https://img.shields.io/static/v1?label=|&message=PASSPORT&color=36DF79&style=plastic&logo=passport)![JSX BADGE](https://img.shields.io/badge/JSX-blue)![MATERIAL UI BADGE](https://img.shields.io/static/v1?label=|&message=MATERIAL_UI&color=316c5e&style=plastic&logo=bootstrap)
+## Tech used: ![NODE BADGE](https://img.shields.io/static/v1?label=%7C&message=NODE&color=cbb148&style=plastic&logo=node)![REACT BADGE](https://img.shields.io/static/v1?label=|&message=REACT.JS&color=4a935c&style=plastic&logo=react)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)![JSX BADGE](https://img.shields.io/badge/JSX-blue)![MATERIAL UI BADGE](https://img.shields.io/static/v1?label=|&message=MATERIAL_UI&color=316c5e&style=plastic)
 
 
 ## Optimizations
