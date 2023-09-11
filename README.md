@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# National Parks App <a href="https://nationalparksusa.netlify.app/" target="_blank">Visit Here</a>
+<a href="https://nationalparksusa.netlify.app/" target="_blank">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmVlMjg2MDAzZjA3N2I2MjdhMWIyMTRiOGQzYThkMjcwZWU5MmMyMCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/bASX2PBLf0hYWCF2lS/giphy.gif" width="80%" margin="auto" alt="link to national parks app"/>
+</a>
 
+React SPA app where users can pull up the details of each U.S. national park and monument. 
+
+Users can search by U.S. state and pull up a list of all the state's national parks and monuments, where they have the option to view or hide the details of each listed park or monument.
+
+Built with React, Node, JSX, and Material UI.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Tech used: ![NODE BADGE](https://img.shields.io/static/v1?label=%7C&message=NODE&color=cbb148&style=plastic&logo=node)![REACT BADGE](https://img.shields.io/static/v1?label=|&message=REACT.JS&color=4a935c&style=plastic&logo=react)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)![PASSPORT BADGE](https://img.shields.io/static/v1?label=|&message=PASSPORT&color=36DF79&style=plastic&logo=passport)![JSX BADGE](https://img.shields.io/badge/JSX-blue)![MATERIAL UI BADGE](https://img.shields.io/static/v1?label=|&message=MATERIAL_UI&color=316c5e&style=plastic&logo=bootstrap)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Optimizations
+Include a feature where users can log in and save their favorites.
+Also, would love to have the state parks display on a map of the state, instead of a grid of cards, and there's the option to click on the park's name on the map to display details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Lessons Learned
 
-### `npm test`
+Creating an optimal UI tree, and ensuring only necessary information is stored in state. It was also great practice in keeping the ButtonAndDetails child component controlled.
+I also had a lot of fun working with Material UI functionality, and creating reusable image cards.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## More Projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<table bordercolor="#66b2b2">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  <tr>
+    <td width="50%"  style="align:center;" valign="top">
+<a target="_blank" href="">ConfiDance</a>
+        <br />
+      <a target="_blank" href="">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjM4NmJjM2IyMzIxMGNiZWZiMjMzNmI5NWE4OWIwMTE3ZjhjZGZlNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/OXCaDWUVwy5ViA30od/giphy.gif" width="100%"  alt="link to Confidance application"/>
+        </a>
+    </td>
+    <td width="50%" valign="top">
+<a target="_blank" href="">The Metropolitan Museum of Art Generator</a>
+      <br />
+        <a target="_blank" href="">
+          <img src="https://media.giphy.com/media/HdH82S9MPWdWmUk6eg/giphy.gif" width="100%" alt="link to Metropolitan Museum of Art Generator"/>
